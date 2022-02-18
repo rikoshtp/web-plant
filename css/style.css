@@ -1,1 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
 
+/* Navbar */
+.navbar-brand {
+    font-family: "Montserrat";
+    font-size: 28px;
+}
+
+.nav-link {
+    margin-right: 30px;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.row {
+    align-self: center;
+}
+
+
+.navbar-brand,
+.nav-link {
+    color: #315343;
+}
+
+/* Akhir NAVBAR */
+
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    height: 500px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.display-4 {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 32px;
+    color: #fff;
+    margin-top: 115px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.lead {
+    font-family: Assistant;
+    font-weight: normal;
+    font-size: 22px;
+    color: #fff;
+    margin-top: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron-fluid {
+    text-align: center;
+}
+
+.btn.btn-explorenow {
+    margin-top: 25px !important;
+    background-color: #315343;
+    color: white;
+    width: 214px;
+    height: 48px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.btn.btn-explorenow:hover {
+    background-color: #1BA15B;
+    color: white;
+    text-align: center;
+}
+
+/* Akhir Jumbotron */
