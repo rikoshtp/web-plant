@@ -83,3 +83,198 @@ html {
 }
 
 /* Akhir Jumbotron */
+
+/* CATEGORY*/
+
+.section-choosing .needhelp {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #315343;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card {
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #707070;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.16);
+}
+
+
+.card-plant {
+    margin-right: 10px;
+}
+
+.card-title {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 32px;
+    text-align: left;
+    color: #315343;
+}
+
+p.card-text {
+    font-family: Assistant;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    color: #315343;
+}
+
+/* AKHIR CATEGORY */
+
+/* QUOTES */
+.quotes .col-md-3 img {
+    margin-right: 15px;
+    padding: 0;
+}
+
+.quotes {
+    margin-top: 30px;
+    height: 266px;
+    background-color: #D3ECCC;
+}
+
+
+.quotes p {
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #315343;
+}
+
+/* AKHIR QUOTES */
+
+
+/* ABOUT US */
+.about p {
+    font-family: Assistant;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #315343;
+}
+
+
+.about {
+    margin-top: 70px;
+}
+
+.about h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    padding: 0;
+}
+
+/* AKHIR ABOUT US */
+
+
+/* FOOTER */
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #D3ECCC;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer p {
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+/* END HOMEPAGE */
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .nav-link {
+        margin-right: 30px;
+    }
+
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #1BA15B;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+    }
+
+    .display-4 {
+        font-family: "Open Sans";
+        font-weight: 600;
+        font-size: 32px;
+        color: #fff;
+        margin-top: 115px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .lead {
+        font-family: Assistant;
+        font-weight: normal;
+        font-size: 22px;
+        color: #fff;
+        margin-top: 5px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .section-kategori-content {
+        align-content: center;
+    }
+
+
+    .quotes .col-md-3 img {
+        margin-top: 46px;
+    }
+
+    .quotes .col-md-6 p {
+        margin-top: 68px;
+    }
+
+    .about .container {
+        height: 100%;
+        display: flex;
+        margin: 0 300px;
+    }
+
+
+}
+
+/* AKHIR DESKTOP*/
+
+/* AWAL MOBILE */
+@media (min-width: 576px) {
+    .gallery {
+        text-align: center;
+        align-items: center;
+    }
+
+}
+
+/* AKHIR MOBILE */
+
+/* Utility */
+.tombol {
+    border-radius: 50px;
+}
+
+/* Akhir Utility */
