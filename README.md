@@ -1,4 +1,4 @@
-# (3) Versioning Control with Git
+# (3) Software Testing as a Career Path
 ## Resume
 Dalam materi ini mempelajari:
 1. Pengertian Software Testing
@@ -67,3 +67,14 @@ Sebagai hasilnya, dapat mengidentifikasi bug dalam produk/proyek perangkat lunak
 Beberapa Alternatif Karir di bidang Software Tester, yaitu: Performance Tester, Penetration Tester, System Analyst, Scrum Master
 
 Memperlajari software Testing, Test Case Management tools, Automation Testing kemudian setelah meperlajari bisa mencoba melamar sebagi freelancer ataupun sebagai pekerja tetap.
+
+## Task
+Diketahui: Terdapat **Ember** **3L** dan **5L**.
+Ditanya: Cara mendapat air yang isinya **4L** di dalam **Ember**?
+Jawab:
+
+1. Isi penuh **Ember 3L** dengan air
+2. Isi **Ember** **5L** dengan menuangkan semua air dari **Ember 3L** (sekarang **Ember 3L** kosong, dan **Ember 5L** berisis **3 liter air**).
+3. Isi lagi **Ember 3L** kemudian tuangkan ke **Ember 5L** (sekarang **Ember 5L penuh**, **Ember 3L sisa 1L**).
+4. Buang semua air dalam **Ember 5L**, dan tuangkan sisa air 1L yang dimiliki **Ember 3L** tadi ke dalam 5L (sekarang **Ember 5L berisi 1L**, dan **Ember 3L kosong**).
+5. Terakhir, isi penuh **Ember 3L** kemudian tuangkan semua kepada **Ember 5L** (Sekarang **Ember 5L telah terisi air 4L**)
